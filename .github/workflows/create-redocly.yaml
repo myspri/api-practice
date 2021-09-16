@@ -26,7 +26,7 @@ jobs:
           ls -al
           test -f utm.html || (echo "Missing utm.html from previous step." && exit 1)
       
-      #test
+    
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
